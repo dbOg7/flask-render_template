@@ -1,0 +1,40 @@
+# flask-dotenv_render_template
+
+# Objectif du projet:
+
+- installer une application flask
+
+- configurer un template: le template aura pour base  "index.html" fichier qui inclura toute la base du projet (style.css etc...)
+et renverra à l'utilisateur la page home.html
+
+
+# Installer un environnement virtuel
+# Windows
+
+py -m pip install virtualenv
+
+py -m virtualenv venv
+
+.\venv\Scripts\activate
+
+# Linux
+
+pip install virtualenv 
+
+virtualenv venv
+
+source venv/bin/activate
+
+# Installation des modules
+pip install -r requirements.txt
+
+
+# Installation des modules
+
+pip install -r requirements.txt
+
+set FLASK_APP=app.py
+
+set FLASK_ENV=development
+
+flask run
